@@ -24,7 +24,11 @@ class MyRunnable implements Runnable{
 }
 
 class MyCallable implements Callable<Integer>{
-
+	
+/*	The Callable interface is similar to Runnable, 
+ * in that both are designed for classes whoseinstances are potentially executed by another thread.
+ *  A Runnable, however, does not return a result and cannotthrow a checked exception
+*/
 	@Override
 	public Integer call() throws Exception {
 		System.out.println("Inside Callable");

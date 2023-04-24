@@ -12,7 +12,7 @@ class Parent{
 	}
 
 	//Overload
-	public static int increment(int i, int k) {
+	public static double increment(int i, int k) {
 		return i+k;
 	}
 	
